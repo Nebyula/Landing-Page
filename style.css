@@ -12,8 +12,6 @@
 .boxes{
     display: flex;
     flex-direction: column; 
-    justify-content: flex-end;
-    height: 100vh;     
 }
 *{
     margin: 0;
@@ -23,33 +21,137 @@
 .top{
     display: flex;
     flex-direction: column;
-    background-color: rgb(226, 147, 43);
-    height: 25vh;
+    background-color: #1F2937;
+    height: 40vh;
     width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 .logo-link{
     display: flex;
+    width: 70%;
+    margin-top: 1%;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .middle{
     display: flex;
     flex-direction: column;
     background-color: cornflowerblue;
-    height:75vh ;
+    height:100vh ;
     width:100vw ;
 }
 .info{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 50%;
     
 }
 .empty{
     height: 50px;
     width: 50px;
     background-color: blue;
+    height: 80%;
+    width: 100%;
 }
 .part{
     display: flex;
+    justify-content: space-around;
+    height:80% ;
+    width: 55%;
+
+    
     
 }
+
+.quote{
+     
+background-color: azure;
+
+ 
+
+
+
+}
+.header-links{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.link { 
+    cursor: pointer;
+    
+    
+    
+}
+
+.header-content{
+    display: flex;
+    width: 70%;
+    height: 75%;
+    justify-content: space-between;
+    
+}
+
+.content-left{
+    width: 40%;
+    height: 80%;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+
+}
+.content-right{
+    width: 50%;
+    background-color: lightslategray;
+    color: #E5E7EB;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.content-left > button{
+    background-color: #3882f6;
+    border:none;
+    height: 12%;
+    width: 30%;
+    border-radius: 5px;
+    color: #F9FAF8;
+    cursor: pointer;
+
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 80%;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
